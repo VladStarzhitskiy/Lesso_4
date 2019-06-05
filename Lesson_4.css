@@ -1,0 +1,100 @@
+body{
+    font-size: 20px;
+}
+
+[href="http://google.com.ua/"] {
+    color: red;
+}
+
+abbr[title="world wide web"] {
+    color: firebrick;
+}
+
+
+/*
+div#paragraph1 .note{ 
+
+color: cyan;
+}
+*/
+/*более висомый селектор чем ниже*/
+
+#paragraph1 .note{
+
+}
+
+div#paragraph1 > .note{ 
+
+    color: green;
+    }
+
+b + i {
+    color: blue;
+}
+    
+h1 ~ p {
+    text-decoration: underline; 
+}
+
+/*html5book.ru  -  css  -  Основы CSS  \ 2.8*/ посмотреть дома */
+
+a:link{
+
+
+}
+
+a:visited{
+    color: gold;
+}
+
+a:hover{
+    color: brown;
+}
+
+
+a:active{
+    color: fuchsia;
+}
+
+a:not(.first){/*Выделет все класы а у которых нету тега фест*/
+
+    font-size: 40px;
+}
+
+p::first-letter{
+    font-size: 50px; 
+    font-weight: 700; /*жирность шрифта бывает от 100 до 900*/
+}
+
+P, b, .block, #footer{
+
+}
+
+.color{
+    height: 200px;
+    background: rgb(80, 28, 28);
+    background: #4aa54a;
+    background: rgba(227, 139, 50, 0.5);
+    background: rgba(227, 139, 50, .5);
+    background: rgba(10%, 100%, 5%, 0.5);
+    background: hsla(240, 72%, 50%, 0.2);
+    background: transparent; /*rgba(0, 0, 0, 0); - Прозрачность*/
+
+}
+
+
+
+
+p{
+    font-size: 2em;
+}
+
+h1{
+    font-size: 7em;/*em работает относительно нашего тела(основного шрифта)*/
+    margin-top: 20px;
+
+}
+
+abbr{
+    font-size: 150%;
+}

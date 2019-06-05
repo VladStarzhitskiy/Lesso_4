@@ -1,0 +1,16 @@
+.menu{
+    font-size: 25px;
+    background-color: #ffd700;
+    margin: 5px; 15px; 5px; 15px;
+    border: 25px;
+    padding: 35px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+
+a:hover{
+    color:green;
+}
+
+
